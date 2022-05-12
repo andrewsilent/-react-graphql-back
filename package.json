@@ -1,0 +1,34 @@
+{
+  "name": "tchop-mini-api",
+  "version": "1.0.0",
+  "description": "tchop-mini api",
+  "private": true,
+  "engines": {
+    "node": "14.16"
+  },
+  "main": "./src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start:dev": "nodemon ./src/index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/graphql": "^14.5.0",
+    "@typescript-eslint/eslint-plugin": "^4.29.0",
+    "@typescript-eslint/parser": "^4.29.0",
+    "eslint": "^7.32.0",
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-plugin-prettier": "^3.4.0",
+    "nodemon": "^2.0.12",
+    "prettier": "^2.3.2",
+    "typescript": "^4.3.5"
+  },
+  "dependencies": {
+    "apollo-server": "^3.1.2",
+    "datasource-sql": "^1.4.1",
+    "graphql": "^15.5.1",
+    "lodash": "^4.17.21",
+    "mysql": "^2.18.1"
+  }
+}

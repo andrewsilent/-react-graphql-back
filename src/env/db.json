@@ -1,0 +1,11 @@
+{
+  "knexConfig": {
+    "client": "mysql",
+    "connection": {
+      "host": "localhost",
+      "user": "tchop",
+      "password": "tchop",
+      "database": "mixedzone"
+    }
+  }
+}
